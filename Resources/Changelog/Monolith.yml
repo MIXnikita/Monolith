@@ -17526,3 +17526,10 @@ Entries:
   id: 1934
   time: '2026-02-28T05:08:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3167
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: Adds Hydrakin Painted Ears markings, unpainted tails, and Seer eyes.
+  id: 1935
+  time: '2026-02-28T19:55:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3291
