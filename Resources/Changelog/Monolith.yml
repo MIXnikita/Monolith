@@ -18226,3 +18226,10 @@ Entries:
   id: 2010
   time: '2026-03-13T22:16:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3307
+- author: EldritchPineapple
+  changes:
+    - type: Tweak
+      message: A deep-space tanker has been detected with monolithic activity on board.
+  id: 2011
+  time: '2026-03-14T15:48:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3418
