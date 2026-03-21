@@ -18533,3 +18533,10 @@ Entries:
   id: 2044
   time: '2026-03-21T19:52:52.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3241
+- author: Mrrpip
+  changes:
+    - type: Tweak
+      message: Tweaks the Triage to be more armored and guideline compliant.
+  id: 2045
+  time: '2026-03-21T19:55:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3449
