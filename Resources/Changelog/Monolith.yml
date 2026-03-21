@@ -18550,3 +18550,10 @@ Entries:
   id: 2046
   time: '2026-03-21T20:00:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3482
+- author: Mrrpip
+  changes:
+    - type: Add
+      message: Adds a mappable set of flare countermeasures.
+  id: 2047
+  time: '2026-03-21T20:03:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3468
