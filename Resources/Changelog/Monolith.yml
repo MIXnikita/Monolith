@@ -18582,3 +18582,12 @@ Entries:
   id: 2050
   time: '2026-03-21T22:11:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3511
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Natural Letoferol chemical clarified that you need Mesotaxinide to
+        revert it instead of being permanent.
+  id: 2051
+  time: '2026-03-21T22:40:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3512
