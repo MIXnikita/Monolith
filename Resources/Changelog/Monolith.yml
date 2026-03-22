@@ -18666,3 +18666,24 @@ Entries:
   id: 2060
   time: '2026-03-22T19:40:11.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3371
+- author: Helicaste
+  changes:
+    - type: Add
+      message: Space Snails now know where you are at all times.
+    - type: Tweak
+      message: >-
+        Mech Laser Weapons have been significantly buffed, hopefully they will
+        now live in your head as a competitor to the AC-2.
+    - type: Add
+      message: >-
+        TSF now have a Mech Pulse Rifle in their uplink, as always, restricted
+        to FTL+
+    - type: Tweak
+      message: >-
+        TSF Volta modsuit has been redesigned for comfort and utility... It is
+        moderately more frangible.
+    - type: Fix
+      message: TSF Volta magboots now actually function properly.
+  id: 2061
+  time: '2026-03-22T19:43:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3247
