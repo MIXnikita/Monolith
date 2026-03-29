@@ -19075,3 +19075,12 @@ Entries:
   id: 2101
   time: '2026-03-29T02:40:06.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3595
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Signaller range buffed to 90 meters.
+    - type: Tweak
+      message: Advanceds Signaller range buffed to 600 meters.
+  id: 2102
+  time: '2026-03-29T05:46:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3594
