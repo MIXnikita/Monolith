@@ -19185,3 +19185,14 @@ Entries:
   id: 2115
   time: '2026-04-02T17:25:02.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3559
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Added Far Reaches IV and a new drone to find in it.
+    - type: Tweak
+      message: >-
+        Reduced overall drone spawnrate, but increased proportion of more
+        advanced drones further out.
+  id: 2116
+  time: '2026-04-02T18:52:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3677
