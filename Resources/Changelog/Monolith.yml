@@ -19582,3 +19582,15 @@ Entries:
   id: 2160
   time: '2026-04-10T10:18:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3743
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Plant Analyzer QOL: No longer needs charging, can identify unviable
+        mutation, no longer needs advanced scan, added a scrollbar for
+        displaying many chems, made the scanner update in realtime, reduced scan
+        time to match health analyzer (0.8s), simplified jargon words in
+        attributes
+  id: 2161
+  time: '2026-04-10T12:25:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3586
