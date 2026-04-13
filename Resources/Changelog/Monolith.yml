@@ -19810,3 +19810,10 @@ Entries:
   id: 2186
   time: '2026-04-13T17:42:50.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3484
+- author: Mrrpip
+  changes:
+    - type: Tweak
+      message: Fabricators and servers from the USSP vendor are no longer limited.
+  id: 2187
+  time: '2026-04-13T17:43:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3441
