@@ -19869,3 +19869,12 @@ Entries:
   id: 2193
   time: '2026-04-14T19:16:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3785
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Tarantula revamped with radar markings, large engines, and tile
+        diagonalization.
+  id: 2194
+  time: '2026-04-14T21:01:36.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3276
