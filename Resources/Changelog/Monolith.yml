@@ -19941,3 +19941,12 @@ Entries:
   id: 2201
   time: '2026-04-16T15:55:16.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3794
+- author: doublechest
+  changes:
+    - type: Fix
+      message: >-
+        Fixed not being able to move when entering the grid with jetpacks and
+        magboots enabled
+  id: 2202
+  time: '2026-04-16T16:04:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3781
