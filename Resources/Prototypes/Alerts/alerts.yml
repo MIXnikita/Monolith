@@ -40,7 +40,7 @@
   id: LowOxygen
   category: Breathing
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/breathing.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/breathing.rsi # Exodus retextur
     state: not_enough_oxy
   name: alerts-low-oxygen-name
   description: alerts-low-oxygen-desc
@@ -49,7 +49,7 @@
   id: LowNitrogen
   category: Breathing
   icons:
-    - sprite: /Textures/_Exodus/Interface/Alerts/breathing.rsi # Monolith-ss220 retextur
+    - sprite: /Textures/_Exodus/Interface/Alerts/breathing.rsi # Exodus retextur
       state: not_enough_nitro
   name: alerts-low-nitrogen-name
   description: alerts-low-nitrogen-desc
@@ -58,7 +58,7 @@
   id: Toxins
   category: Toxins
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/breathing.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/breathing.rsi # Exodus retextur
     state: too_much_tox
   name: alerts-high-toxin-name
   description: alerts-high-toxin-desc
@@ -137,7 +137,7 @@
 - type: alert
   id: Weightless
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/weightless.rsi # Monolith-ss220 fix and retexture
+  - sprite: /Textures/_Exodus/Interface/Alerts/weightless.rsi # Exodus fix and retexture
     state: weightless
   name: alerts-weightless-name
   description: alerts-weightless-desc
@@ -145,7 +145,7 @@
 - type: alert
   id: Walking
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/walking.rsi  # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/walking.rsi  # Exodus retextur
     state: walking
   name: alerts-walking-name
   description: alerts-walking-desc
@@ -153,7 +153,7 @@
 - type: alert
   id: Stun
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/stunned.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/stunned.rsi # Exodus retextur
     state: stunned
   name: alerts-stunned-name
   description: alerts-stunned-desc
@@ -162,7 +162,7 @@
   id: Handcuffed
   clickEvent: !type:RemoveCuffsAlertEvent
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/handcuffed.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/handcuffed.rsi # Exodus retextur
     state: handcuffed
   name: alerts-handcuffed-name
   description: alerts-handcuffed-desc
@@ -171,7 +171,7 @@
   id: Ensnared
   clickEvent: !type:RemoveEnsnareAlertEvent
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/ensnared.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/ensnared.rsi # Exodus retextur
     state: ensnared
   name: alerts-ensnared-name
   description: alerts-ensnared-desc
@@ -181,7 +181,7 @@
   category: Buckled
   clickEvent: !type:UnbuckleAlertEvent
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/buckle.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/buckle.rsi # Exodus retextur
     state: buckled
   name: alerts-buckled-name
   description: alerts-buckled-desc
@@ -190,7 +190,7 @@
   id: HumanCrit
   category: Health
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_critical.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_critical.rsi # Exodus retextur
     state: critical
   name: alerts-crit-name
   description: alerts-crit-desc
@@ -199,7 +199,7 @@
   id: HumanDead
   category: Health
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_dead.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_dead.rsi # Exodus retextur
     state: dead
   name: alerts-dead-name
   description: alerts-dead-desc
@@ -208,15 +208,15 @@
   id: HumanHealth
   category: Health
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health0
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health1
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health2
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health3
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health4
   name: alerts-health-name
   description: alerts-health-desc
@@ -305,11 +305,11 @@
   category: Internals
   clickEvent: !type:ToggleInternalsAlertEvent
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/internals.rsi  # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/internals.rsi  # Exodus retextur
     state: internal0
-  - sprite: /Textures/_Exodus/Interface/Alerts/internals.rsi  # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/internals.rsi  # Exodus retextur
     state: internal1
-  - sprite: /Textures/_Exodus/Interface/Alerts/internals.rsi  # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/internals.rsi  # Exodus retextur
     state: internal2
   name: alerts-internals-name
   description: alerts-internals-desc
@@ -321,7 +321,7 @@
   category: Piloting
   clickEvent: !type:StopPilotingAlertEvent
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/piloting.rsi  # Monolith-ss220 fix and retexture
+  - sprite: /Textures/_Exodus/Interface/Alerts/piloting.rsi  # Exodus fix and retexture
     state: piloting
   name: alerts-piloting-name
   description: alerts-piloting-desc
@@ -330,7 +330,7 @@
   id: Peckish
   category: Hunger
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/hunger.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/hunger.rsi # Exodus retextur
     state: peckish
   name: alerts-hunger-name
   description: alerts-hunger-desc
@@ -362,7 +362,7 @@
   id: Starving
   category: Hunger
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/hunger.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/hunger.rsi # Exodus retextur
     state: starving
   name: alerts-starving-name
   description: alerts-starving-desc
@@ -371,7 +371,7 @@
   id: Thirsty
   category: Thirst
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/thirst.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/thirst.rsi # Exodus retextur
     state: thirsty
   name: alerts-thirsty-name
   description: alerts-thirsty-desc
@@ -380,7 +380,7 @@
   id: Parched
   category: Thirst
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/thirst.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/thirst.rsi # Exodus retextur
     state: parched
   name: alerts-parched-name
   description: alerts-parched-desc
@@ -388,7 +388,7 @@
 - type: alert
   id: Muted
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/abilities.rsi  # Monolith-ss220 fix and retexture
+  - sprite: /Textures/_Exodus/Interface/Alerts/abilities.rsi  # Exodus fix and retexture
     state: silenced
   name: alerts-muted-name
   description: alerts-muted-desc
@@ -396,7 +396,7 @@
 - type: alert
   id: VowOfSilence
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/abilities.rsi  # Monolith-ss220 fix and retexture
+  - sprite: /Textures/_Exodus/Interface/Alerts/abilities.rsi  # Exodus fix and retexture
     state: silenced
   name: alerts-vow-silence-name
   clickEvent: !type:BreakVowAlertEvent
@@ -412,7 +412,7 @@
 - type: alert
   id: Pulled
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/pull.rsi  # Monolith-ss220 fix and retexture
+  - sprite: /Textures/_Exodus/Interface/Alerts/pull.rsi  # Exodus fix and retexture
     state: pulled
   clickEvent: !type:StopBeingPulledAlertEvent
   name: alerts-pulled-name
@@ -421,7 +421,7 @@
 - type: alert
   id: Pulling
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/pull.rsi  # Monolith-ss220 fix and retexture
+  - sprite: /Textures/_Exodus/Interface/Alerts/pull.rsi  # Exodus fix and retexture
     state: pulling
   clickEvent: !type:StopPullingAlertEvent
   name: alerts-pulling-name
@@ -476,7 +476,7 @@
 - type: alert
   id: Debug1
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health0
   name: Debug1
   description: Debug
@@ -484,7 +484,7 @@
 - type: alert
   id: Debug2
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health1
   name: Debug2
   description: Debug
@@ -492,7 +492,7 @@
 - type: alert
   id: Debug3
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health2
   name: Debug3
   description: Debug
@@ -500,7 +500,7 @@
 - type: alert
   id: Debug4
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health3
   name: Debug4
   description: Debug
@@ -508,7 +508,7 @@
 - type: alert
   id: Debug5
   icons:
-  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Monolith-ss220 retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_alive.rsi # Exodus retextur
     state: health4
   name: Debug5
   description: Debug
@@ -516,7 +516,7 @@
 - type: alert
   id: Debug6
   icons:
-  - sprite: /Textures//_Exodus/nterface/Alerts/human_critical.rsi # Monolith-ss220 retextur
+  - sprite: /Textures//_Exodus/nterface/Alerts/human_critical.rsi # Exodus retextur
     state: critical
   name: Debug6
   description: Debug
