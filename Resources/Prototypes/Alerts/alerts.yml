@@ -67,9 +67,9 @@
   id: LowPressure
   category: Pressure
   icons:
-  - sprite: /Textures/Interface/Alerts/pressure.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/pressure.rsi # Exodus retextur
     state: lowpressure1
-  - sprite: /Textures/Interface/Alerts/pressure.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/pressure.rsi # Exodus retextur
     state: lowpressure2
   maxSeverity: 2
   name: alerts-low-pressure-name
@@ -79,9 +79,9 @@
   id: HighPressure
   category: Pressure
   icons:
-  - sprite: /Textures/Interface/Alerts/pressure.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/pressure.rsi # Exodus retextur
     state: highpressure1
-  - sprite: /Textures/Interface/Alerts/pressure.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/pressure.rsi # Exodus retextur
     state: highpressure2
   maxSeverity: 2
   name: alerts-high-pressure-name
