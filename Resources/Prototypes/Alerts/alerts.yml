@@ -516,7 +516,7 @@
 - type: alert
   id: Debug6
   icons:
-  - sprite: /Textures/_Exodus/nterface/Alerts/human_critical.rsi # Exodus retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_critical.rsi # Exodus retextur
     state: critical
   name: Debug6
   description: Debug
