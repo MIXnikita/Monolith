@@ -339,19 +339,19 @@
   id: Stamina
   category: Stamina
   icons:
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina0
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina1
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina2
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina3
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina4
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina5
-  - sprite: /Textures/Interface/Alerts/stamina.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/stamina.rsi # Exodus retextur
     state: stamina6
   name: alerts-stamina-name
   description: alerts-stamina-desc
@@ -460,7 +460,7 @@
 - type: alert
   id: Pacified
   icons:
-  - sprite: /Textures/Interface/Alerts/pacified.rsi
+  - sprite: /Textures/_Exodus/Interface/Alerts/pacified.rsi # Exodus retextur
     state: icon
   name: alerts-pacified-name
   description: alerts-pacified-desc
@@ -516,7 +516,7 @@
 - type: alert
   id: Debug6
   icons:
-  - sprite: /Textures/_Exodus/nterface/Alerts/human_critical.rsi # Exodus retextur
+  - sprite: /Textures/_Exodus/Interface/Alerts/human_critical.rsi # Exodus retextur
     state: critical
   name: Debug6
   description: Debug
