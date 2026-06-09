@@ -1,0 +1,91 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: ChemicalImplant
+  name: Chemical implant
+  description: Inject to the bloodstream some chemicals
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SubdermalImplant
+    implantAction: ActionChemicalImplant
+  - type: TriggerImplantAction
+  - type: TransferSolutionOnTrigger
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: StimulantsImplant
+  name: Stimulants implant
+  description: Inject to the bloodstream some stimulant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SubdermalImplant
+    implantAction: ActionStimulantsImplant
+  - type: TriggerImplantAction
+  - type: SolutionContainerManager
+    solutions:
+      sol1:
+        maxVol: 50
+        reagents:
+        - ReagentId: Stimulants
+          Quantity: 50
+  - type: TransferSolutionOnTrigger
+    solutions:
+    - name: sol1
+      charges: 5
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: CombatImplant
+  name: combat injector implant
+  description: Inject to the bloodstream some healing reagents
+  categories: [HideSpawnMenu]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionCombatImplant
+    - type: TriggerImplantAction
+    - type: SolutionContainerManager
+      solutions:
+        sol1:
+          maxVol: 110
+          reagents:
+            - ReagentId: Omnizine
+              Quantity: 100
+            - ReagentId: TranexamicAcid
+              Quantity: 20
+    - type: TransferSolutionOnTrigger
+      solutions:
+        - name: sol1
+          charges: 5
+          transferAmount: 30
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: DeathAcidifierImplantDeadEXDS
+  name: death-acidifier implant
+  description: This implant melts the user and their equipment upon death.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SubdermalImplant
+    permanent: true
+  - type: DelayedTriggerOnMobstateChange
+    delay: 300
+  - type: GibOnTrigger
+    deleteItems: true
+    deleteOrgans: true
+  - type: SpawnOnTrigger
+    proto: Acidifier
+  - type: Tag
+    tags:
+    - SubdermalImplant
+    - HideContextMenu
+    - DeathAcidifier
+
+- type: entity
+  parent: MedicalTrackingImplant
+  id: AsakimTrackingImplant
+  name: asakim tracking implant
+  description: This implant reports critical life signs to the Asakim remnants channel.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Rattle
+    radioChannel: Remnants
+    language: Azaziba

@@ -82,7 +82,8 @@
   - FrontierRoundstartVariation
   - MonoAISTCShuttleSpawnerScheduler
   - MonoAISTCShuttleSpawnerSchedulerTier2
-  # - MonoAsakimSTCShuttleSpawnerScheduler # Exodus-Asakim-Disable
+  - ExodusT3ShipsScheduler # Exodus-azimuth
+  - MonoAsakimSTCShuttleSpawnerScheduler
   - MonoMonolithicEventsScheduler
   # - PortstrikeAnnounceRuleHour2 # Exodus-NoPortstrikeAnnounce
 
@@ -119,7 +120,8 @@
   - MonoChimeraSTCShuttleSpawnerSchedulerSlow
   - MonoAISTCShuttleSpawnerSchedulerSlow
   - MonoAISTCShuttleSpawnerSchedulerTier2Slow
-  # - MonoAsakimSTCShuttleSpawnerSchedulerSlow # Exodus-Asakim-Disable
+  - ExodusT3ShipsSchedulerSlow # Exodus-azimuth
+  - MonoAsakimSTCShuttleSpawnerSchedulerSlow
   - MonoMonolithicEventsScheduler
   # - PortstrikeAnnounceRuleHour2 # Exodus-NoPortstrikeAnnounce
 
@@ -139,7 +141,7 @@
   - FrontierRoundstartVariation
   - MonoChimeraSTCShuttleSpawnerSchedulerApocalypse
   - MonoAISTCShuttleSpawnerSchedulerApocalypse
-  # - MonoAsakimSTCShuttleSpawnerSchedulerApocalypse # Exodus-Asakim-Disable
+  - MonoAsakimSTCShuttleSpawnerSchedulerApocalypse
   - MonoMonolithicEventsScheduler
   - RoundEndRuleHour3
   - PortstrikeAnnounceRuleHour1

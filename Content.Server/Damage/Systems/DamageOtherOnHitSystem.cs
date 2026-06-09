@@ -16,14 +16,14 @@ using Robust.Shared.Player;
 
 namespace Content.Server.Damage.Systems
 {
-    public sealed class DamageOtherOnHitSystem : EntitySystem
+    public sealed partial class DamageOtherOnHitSystem : EntitySystem
     {
-        [Dependency] private readonly IAdminLogManager _adminLogger = default!;
-        [Dependency] private readonly GunSystem _guns = default!;
-        [Dependency] private readonly DamageableSystem _damageable = default!;
-        [Dependency] private readonly DamageExamineSystem _damageExamine = default!;
-        [Dependency] private readonly SharedCameraRecoilSystem _sharedCameraRecoil = default!;
-        [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;
+        [Dependency] private IAdminLogManager _adminLogger = default!;
+        [Dependency] private GunSystem _guns = default!;
+        [Dependency] private DamageableSystem _damageable = default!;
+        [Dependency] private DamageExamineSystem _damageExamine = default!;
+        [Dependency] private SharedCameraRecoilSystem _sharedCameraRecoil = default!;
+        [Dependency] private SharedColorFlashEffectSystem _color = default!;
 
         public override void Initialize()
         {
@@ -58,7 +58,7 @@ namespace Content.Server.Damage.Systems
 
         private void OnDamageExamine(EntityUid uid, DamageOtherOnHitComponent component, ref DamageExamineEvent args)
         {
-            _damageExamine.AddDamageExamine(args.Message, _damageable.ApplyUniversalAllModifiers(component.Damage * _damageable.UniversalThrownDamageModifier), Loc.GetString("damage-throw"));
+            _damageExamine.AddDamageExamine(args.Message, _damageable.ApplyUniversalAllModifiers(component.Damage * _damageable.UniversalThrownDamageModifier), type: Loc.GetString("damage-throw"));   //Exodus ArmorPiercingExamine
         }
 
         /// <summary>

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT3 ]
   id: ClothingOuterHardsuitAsakim
-  name: kasature-pattern combat harness
-  description: An advanced pre-fracture harness. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor binds itself with the wearer and cannot be removed without external release.
+  name: kasature-pattern combat exoskeleton
+  description: An advanced exoskeleton harness of cutting edge, corporate-era technology. It connects itself directly to the brain of the wearer, and requires advanced brain augmentation and cybernetics to function. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor cannot be removed without external release.
   suffix: SelfUnremovable
   components:
   - type: Sprite
@@ -11,6 +11,29 @@
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/asakim.rsi
     stripDelay: 60
     equipDelay: 5
+    whitelist:
+      tags:
+        - AsakimBrain
+    whitelistCheckOrgans: true
+  # Exodus-asakim-suit-radio-start
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+      storagebase: !type:Container
+        ents: []
+      item: !type:ContainerSlot {}
+      key_slots: !type:Container
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyAsakimRemnants
+  - type: Headset
+    requiredSlot: outerclothing
+  - type: EncryptionKeyHolder
+    keysUnlocked: false
+    keySlots: 1
+    examineWhileLocked: false
+  # Exodus-asakim-suit-radio-end
   - type: SelfUnremovableClothing
   - type: PressureProtection
     highPressureMultiplier: 0.1
@@ -32,7 +55,7 @@
     modifiers:
       coefficients:
         Blunt: 0.35
-        Slash: 0.85
+        Slash: 0.5 # Exodus-asakim-slash-resist
         Piercing: 0.3
         Heat: 0.4
         Radiation: 0
@@ -40,8 +63,19 @@
         Poison: 0.4
         Caustic: 0.4
   - type: ClothingSpeedModifier
-    walkModifier: 0.2
-    sprintModifier: 0.2
+    walkModifier: 1.0 # Exodus-asakim-no-hardsuit-slowdown
+    sprintModifier: 1.0 # Exodus-asakim-no-hardsuit-slowdown
+  # Exodus-asakim-suit-biocheck-start
+  - type: Biocode
+    blockInteraction: false
+    triggerOnReject: true
+    whitelist:
+      components: [ AsakimTrustedUser ]
+    mindWhitelist:
+      mindRoles: [ AsakimRole ]
+  - type: GibOnBiocodeReject
+    deleteItems: true
+  # Exodus-asakim-suit-biocheck-end
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
@@ -54,12 +88,11 @@
   - type: PirateBountyItem
     id: ClothingOuterHardsuitTacsuit
   - type: StaminaDamageResistance
-    coefficient: 0.1
+    coefficient: 0.4
 
 - type: entity
   parent: ClothingOuterHardsuitAsakim
   id: ClothingOuterHardsuitAsakimUnremoveable
-  description: An advanced pre-fracture harness. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor binds itself with the wearer and cannot be removed without external release. This one is fully binded to a warrior, and will take a long time to remove.
   suffix: 120 stripDelay
   components:
   - type: Clothing

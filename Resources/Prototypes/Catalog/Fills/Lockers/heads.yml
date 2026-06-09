@@ -233,7 +233,7 @@
     - id: Hypospray
     - id: MedicalTechFabCircuitboard
     - id: MedkitFilled
-    - id: RubberStampCMO
+    - id: RubberStampDoc
     # Goobstation Start
     - id: ClothingBeltMilitaryWebbingCMOFilled
     - id: Multitool
@@ -243,6 +243,7 @@
     # Shitmed
     - id: MedicalBiofabMachineBoard
     - id: MMI # Shitmed
+    - id: BoxEncryptionKeyMedicalSpeak # Exodus
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable

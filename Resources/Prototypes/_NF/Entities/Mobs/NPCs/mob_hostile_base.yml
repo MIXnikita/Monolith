@@ -79,7 +79,7 @@
   abstract: true
   components:
   - type: Reflect
-    reflectProb: 0.8
+    reflectProb: 0.6 # Exodus-Exp-Balance
     reflects:
       - Energy
 
@@ -105,7 +105,6 @@
     - type: CanMoveInAir
     - type: Tag
     - type: Access
-    - type: Timer
     - type: TimedSpawner
     - type: Advertise
       pack: FuelVendAds # placeholder, required field, unused
